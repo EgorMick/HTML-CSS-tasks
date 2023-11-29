@@ -1,0 +1,194 @@
+/*base styles*/
+* {
+  padding: 0px;
+  margin: 0px;
+  border: none;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Links */
+
+a,
+a:link,
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+/* Common */
+
+aside,
+nav,
+footer,
+header,
+section,
+main {
+  display: block;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+ul,
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+img,
+svg {
+  max-width: 100%;
+  height: auto;
+}
+
+address {
+  font-style: normal;
+}
+
+/* Form */
+
+input,
+textarea,
+select {
+  font-family: inherit;
+  font-size: inherit;
+  color: inherit;
+  background-color: transparent;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+input:focus,
+input:active,
+button:focus,
+button:active {
+  outline: none;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+label {
+  cursor: pointer;
+}
+
+legend {
+  display: block;
+}
+
+h2 {
+  font-family: "Tenor Sans";
+  font-size: 48px;
+}
+
+h4 {
+  font-family: "Open Sans";
+  font-size: 24px;
+}
+
+p {
+  font-family: "Open Sans";
+  font-size: 18px;
+}
+
+header,
+footer {
+  font-family: "Open Sans";
+  font-size: 16px;
+  background-color: #f3efea;
+}
+
+footer {
+  background: #715b4b;
+}
+
+.section4_family {
+  background: #ebeeeb;
+}
+
+.section6_offers {
+  background: #e3dace;
+}
+
+.p-little {
+  font-size: 16px;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+body {
+  padding-left: 240px;
+  padding-right: 240px;
+  min-width: 1920px;
+}
+
+.containerhead {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding-bottom: 20px;
+}
+
+.divhead {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 64px;
+}
+
+#headlogo {
+  padding-top: 32px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+footer {
+  background-color: #715b4b;
+}
+
+.footer-main {
+  padding-left: 140px;
+  padding-right: 140px;
+  display: grid;
+  grid-template-columns: 1.5fr 3fr 1fr;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.footer-option {
+  display: grid;
+  grid-template-columns: 1.8fr 1fr 2fr;
+  grid-row-gap: 20px;
+}
+
+.footer-option a,
+.footer-main p {
+  color: #f6f6f6;
+}
+
+main {
+  background-color: #f3efea;
+}
